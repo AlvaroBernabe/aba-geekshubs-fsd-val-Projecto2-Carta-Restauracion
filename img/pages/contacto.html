@@ -5,6 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+    crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     
@@ -14,9 +23,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulario Contacto</title>
 </head>
 <body>
-    
+    <h1>Formulario de contacto "La Sabrosa Alianza"</h1>
+    <div class="container">
+        <form class="row g-3 mt-3">
+            <div class="col-6">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="nombre" placeholder="Escribe tu nombre">
+            </div>
+            <div class="col-6">
+                <label for="apellido" class="form-label">Apellidos</label>
+                <input type="text" class="form-control" id="apellido" placeholder="Escribe tus apellidos">
+            </div>
+            <div class="col-12">
+                <label for="direccion" class="form-label">Dirección</label>
+                <input type="text" class="form-control" id="direccion" placeholder="Dirección">
+            </div>            
+            <div class="col-6">
+                <label for="ciudad" class="form-label">Ciudad</label>
+                <input type="text" class="form-control" id="ciudad" placeholder="Ciudad">
+            </div>
+            <div class="col-3">
+                <label for="codigopostal" class="form-label">Código Postal</label>
+                <input type="number" class="form-control" id="codigociudad" placeholder="Código Postal">
+            </div>
+            <div class="col-12">
+                <label for="resumenconsulta" class="form-label">Consulta</label>
+                <input type="text" class="form-control" id="resumenconsulta" placeholder="Describe cual es tu consulta">
+            </div> 
+                        <div class="col-12">
+                <div class="form-check">
+                    <input type="checkbox" id="checkterms" class="form-check-input">
+                    <label for="checkterms" class="form-check-label">Acepto los terminos y Condiciones</label>
+                </div>
+            </div>
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Regístrate</button>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
