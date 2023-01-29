@@ -24,3 +24,6 @@ body {
     color: var(--second-color);
     text-align: center;
 }
+h4 {
+    color: var(--fourth-color);
+}
