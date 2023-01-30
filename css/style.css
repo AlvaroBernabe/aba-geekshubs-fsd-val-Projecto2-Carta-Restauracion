@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(22, 159, 159);
+    background-color: rgb(139, 101, 125);
     margin:0;
     padding:0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -51,8 +51,8 @@ h2 {
     margin-right: 5px;
 }
 .email {
-    color: pink
+    color: pink;
 }
 .facebook {
-    color: blueviolet;
+    color: pink;
 }
