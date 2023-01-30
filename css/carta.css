@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(22, 159, 159);
+    margin:0;
+    padding:0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+    /* Colores */
+:root {
+    --first-color: rgb(0, 195, 255);
+    --second-color: rgb(180, 56, 56);
+    --third-color: rgb(144, 196, 67); 
+    --fourth-color:rgb(153, 58, 177);
+    --fifth-color:rgb(87, 83, 83);
+}
+
+.navbar {
+    background-color: red;
+    font-family: sans-serif;
+}
+
+.navbar .navbar-brand {
+    width: auto;
+    height: 3rem;
+    color: var(--second-color);
+    text-align: center;
+}
+h4 {
+    color: var(--fourth-color);
+}
+
+.menu-title {
+    background-color: pink;
+}
+.menu-title h1 {
+    font-size: xx-large;
+    color: var(--fourth-color);
+}
+
+.star-rating i {
+    font-size: 14px;
+    color: darkgoldenrod;
+}
+
+
+.item-price {
+    font-size: 15px;
+    padding:  2px 0;
+    color: darkorange;
+}
+.item-price strike {
+    color:crimson;
+    margin-right: 5px;
+}
+.informacionadicional {
+
+}

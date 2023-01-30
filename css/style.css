@@ -1,5 +1,5 @@
 body {
-    background-color: aqua;
+    background-color: rgb(22, 159, 159);
     margin:0;
     padding:0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -26,4 +26,33 @@ body {
 }
 h4 {
     color: var(--fourth-color);
+}
+
+h2 {
+    color: var(--third-color);
+}
+
+.menu-title h1 {
+    font-size: xx-large;
+    color: var(--fourth-color)
+}
+
+.star-rating i {
+    font-size: 14px;
+    color: darkgoldenrod;
+}
+.item-price {
+    font-size: 15px;
+    padding:  2px 0;
+    color: darkorange;
+}
+.item-price strike {
+    color:crimson;
+    margin-right: 5px;
+}
+.email {
+    color: pink
+}
+.facebook {
+    color: blueviolet;
 }
