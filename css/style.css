@@ -17,10 +17,9 @@ body {
 .navbar .navbar-brand {
     width: auto;
     height: 3rem;
-    color: var(--second-color);
     text-align: center;
 }
-h4 {
+h4, p {
     color: var(--six-color);
     font-family: var(--font-family);
 }
@@ -29,7 +28,7 @@ h2 {
 }
 .menu-title h1 {
     font-size: xx-large;
-    color: var(--fourth-color)
+    color: var(--fourth-color);
 }
 .star-rating i {
     font-size: 14px;
@@ -44,25 +43,32 @@ h2 {
     color:crimson;
     margin-right: 5px;
 }
-.email {
+.email, .facebook, .telefono, .twitter {
     color: var(--five-color);
 }
-.facebook {
-    color: var(--five-color);
-}
-.telefono {
-    color: var(--five-color);
-}
-.twitter {
-    color: var(--five-color);
-}
-.informacionadicional {
+.informacionadicional, #mensaje, #codigociudad, #ciudad, #direccion, #correo, #nombre {
     padding: 2px;
-}
-p {
-    color: var(--six-color);
     font-family: var(--font-family);
 }
 h3 {
     color: var(--seven-color);
+}
+.menu-title {
+    background-color: var(--five-color);
+}
+
+/* Reglas adicionales y ajustes según las diferencias en los snippets originales */
+/* Ajustar color de navbar-brand según preferencia */
+.navbar .navbar-brand {
+    color: var(--second-color);  /* Otra opción es var(--first-color) según el segundo snippet */
+}
+
+/* Ajuste de colores según el tercer snippet */
+:root {
+    --five-color: rgb(231, 138, 153);  /* Este color es un poco distinto en el tercer snippet */
+}
+
+/* Regla adicional en el tercer snippet */
+.email, .facebook, .telefono, .twitter {
+    color: pink;  /* Esto puede ser un error o una preferencia puntual. Si no es necesario, eliminar esta regla */
 }
