@@ -5,13 +5,12 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 :root {
-    --second-color: #FFC8C8;
+    --second-color: #4f2e54;
     --third-color: #FF3FA4;
     --six-color: #57375D;
     --fourth-color: rgb(184, 134, 11);
     --five-color: rgb(255, 126, 148);
     --seven-color: #f501e9;
-    --font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .navbar .navbar-brand {
     width: auto;
@@ -19,12 +18,17 @@ body {
     color: var(--seven-color);
     text-align: center;
 }
+.navbar {
+    top: 0;
+    position: sticky;
+    z-index: 1;
+}
 h4 {
-    color: var(--six-color);
+    color: var(--seven-color);
     font-family: var(--font-family);
 }
 h2 {
-    color: var(--seven-color);
+    color: var(--five-color);
 }
 
 p {
