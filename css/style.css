@@ -5,31 +5,33 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 :root {
-    --first-color: rgb(177, 50, 0);
-    --second-color: rgb(139, 101, 125);
-    --third-color: rgb(255, 140, 0);
+    --second-color: #FFC8C8;
+    --third-color: #FF3FA4;
+    --six-color: #57375D;
     --fourth-color: rgb(184, 134, 11);
     --five-color: rgb(255, 126, 148);
-    --six-color: rgb(81, 2, 88);
-    --seven-color: rgb(59, 2, 163);
+    --seven-color: #f501e9;
     --font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .navbar .navbar-brand {
     width: auto;
     height: 3rem;
+    color: var(--seven-color);
     text-align: center;
 }
-h4, p {
+h4 {
     color: var(--six-color);
     font-family: var(--font-family);
 }
 h2 {
+    color: var(--seven-color);
+}
+
+p {
     color: var(--third-color);
+    font-family: var(--font-family);
 }
-.menu-title h1 {
-    font-size: xx-large;
-    color: var(--fourth-color);
-}
+
 .star-rating i {
     font-size: 14px;
     color: var(--fourth-color);
@@ -43,32 +45,21 @@ h2 {
     color:crimson;
     margin-right: 5px;
 }
-.email, .facebook, .telefono, .twitter {
+.email {
     color: var(--five-color);
 }
-.informacionadicional, #mensaje, #codigociudad, #ciudad, #direccion, #correo, #nombre {
+.facebook {
+    color: var(--five-color);
+}
+.telefono {
+    color: var(--five-color);
+}
+.twitter {
+    color: var(--five-color);
+}
+.informacionadicional {
     padding: 2px;
-    font-family: var(--font-family);
 }
-h3 {
+/* h3 {
     color: var(--seven-color);
-}
-.menu-title {
-    background-color: var(--five-color);
-}
-
-/* Reglas adicionales y ajustes según las diferencias en los snippets originales */
-/* Ajustar color de navbar-brand según preferencia */
-.navbar .navbar-brand {
-    color: var(--second-color);  /* Otra opción es var(--first-color) según el segundo snippet */
-}
-
-/* Ajuste de colores según el tercer snippet */
-:root {
-    --five-color: rgb(231, 138, 153);  /* Este color es un poco distinto en el tercer snippet */
-}
-
-/* Regla adicional en el tercer snippet */
-.email, .facebook, .telefono, .twitter {
-    color: pink;  /* Esto puede ser un error o una preferencia puntual. Si no es necesario, eliminar esta regla */
-}
+} */
