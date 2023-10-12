@@ -1,9 +1,10 @@
 body {
     background-color: var(--second-color);
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 :root {
     --second-color: #4f2e54;
     --third-color: #FF3FA4;
@@ -12,21 +13,25 @@ body {
     --five-color: rgb(255, 126, 148);
     --seven-color: #f501e9;
 }
+
 .navbar .navbar-brand {
     width: auto;
     height: 3rem;
     color: var(--seven-color);
     text-align: center;
 }
+
 .navbar {
     top: 0;
     position: sticky;
     z-index: 1;
 }
+
 h4 {
     color: var(--seven-color);
     font-family: var(--font-family);
 }
+
 h2 {
     color: var(--five-color);
 }
@@ -40,27 +45,34 @@ p {
     font-size: 14px;
     color: var(--fourth-color);
 }
+
 .precio {
     font-size: 15px;
-    padding:  2px 0;
+    padding: 2px 0;
     color: var(--third-color);
 }
+
 .precio strike {
-    color:crimson;
+    color: rgb(237, 46, 85);
     margin-right: 5px;
 }
-.email {
-    color: var(--five-color);
-}
-.facebook {
-    color: var(--five-color);
-}
-.telefono {
-    color: var(--five-color);
-}
+
+.email,
+.facebook,
+.telefono,
 .twitter {
     color: var(--five-color);
 }
-/* h3 {
-    color: var(--seven-color);
-} */
+
+/*Carta HTML exclusive */
+.menu-title {
+    background-color: var(--five-color);
+}
+.menu-title h1 {
+    font-size: xx-large;
+    color: var(--first-color);
+    font-style: var(--font-family);
+}
+
+/* Contacto HTML exclusive*/
+
