@@ -8,7 +8,7 @@ body {
 :root {
     --second-color: #4f2e54;
     --third-color: #FF3FA4;
-    --six-color: #57375D;
+    --six-color: #ec008e;
     --fourth-color: rgb(184, 134, 11);
     --five-color: rgb(255, 126, 148);
     --seven-color: #f501e9;
@@ -25,6 +25,7 @@ body {
     top: 0;
     position: sticky;
     z-index: 1;
+    margin-bottom: 1rem;
 }
 
 h4 {
@@ -58,9 +59,11 @@ p {
 }
 
 .email,
+.icon,
 .facebook,
 .telefono,
-.twitter {
+.twitter,
+label {
     color: var(--five-color);
 }
 
@@ -70,9 +73,6 @@ p {
 }
 .menu-title h1 {
     font-size: xx-large;
-    color: var(--first-color);
+    color: var(--six-color);
     font-style: var(--font-family);
 }
-
-/* Contacto HTML exclusive*/
-
